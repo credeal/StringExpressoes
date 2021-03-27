@@ -1,0 +1,11 @@
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe.config
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.pdb
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.dll
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.pdb
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.xml
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csprojAssemblyReference.cache
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CoreCompileInputs.cache
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CopyComplete
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.exe
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.pdb

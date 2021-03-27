@@ -1,0 +1,7 @@
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.xml
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.dll
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.pdb
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csprojAssemblyReference.cache
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
+C:\Users\21145\Documents\Developer\C#\C-Sharp\POO\Strings Expressões regulares e classe Object\csharppt6-aula1\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb
