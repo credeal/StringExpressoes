@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using ByteBank.Modelos;
 using ByteBank.Modelos.Funcionarios;
@@ -12,8 +13,8 @@ namespace ByteBank.SistemaAgencia
     class Program
     {
         static void Main(string[] args)
-        {   
-
+        {
+            ExpressaoRegular();
 
             string urlParametros = "http://www.bytebank.com/cambio?MoedaOrigem=real&MoedaDestino=dolar";
             ExtrairValorArgumentosURL extrator = new ExtrairValorArgumentosURL(urlParametros);
@@ -69,12 +70,30 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine($"{palavra.Substring(indiceReal + nomeArgumentoReal.Length + 1)}");
         }
 
-        public static void ExpressãoRegular()
+        public static void ExpressaoRegular()
         {
             //Olá meu nome é David e você pode entrar em contato comigo
             //através  do número 8832-3231
 
             //Meu nome é David, me ligue 4333-2231
+
+            //[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]
+            //[0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]
+            //[0-9]{4}[-][0-9]{4}
+            //[0-9]{4,5}[-]{0,1}[0-9]{4}
+            //[0-9]{4,5}-{0,1}[0-9]{4}
+
+            string padrao = string.Empty;
+            padrao += "[0-9]{4,5}-?[0-9]{4}"; //Quantificadores
+
+            string texto_de_teste = "aslkdmaslkdmsalkdmaslkdmsa4333-2231alksmdlkasmdklsamdlksamdks";
+
+            Match resultado = Regex.Match(texto_de_teste, padrao);
+
+            Console.WriteLine($"Valor do Regex: {Regex.IsMatch(texto_de_teste,padrao)}");
+            Console.WriteLine($"Resultado do Regex: {resultado.Value}");
+
+
         }
     }
 }
