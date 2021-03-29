@@ -18,14 +18,24 @@ namespace ByteBank.SistemaAgencia.Utils
 
 
             int indiceInterrogacao = p_url.IndexOf('?');
-            _argumentos = URL.Substring(indiceInterrogacao + 1);
+            _argumentos = p_url.ToUpper().Substring(indiceInterrogacao + 1);
 
             URL = p_url;
         }
 
+        //moedaOrigem=real&moedaDestino=dolar
         public string GetValor(string nomeParametro)
         {
-            return "";
+            string termo = nomeParametro.ToUpper() + "=";
+            int indiceTermo = _argumentos.ToUpper().IndexOf(termo);
+
+            string resultado = _argumentos.Substring(indiceTermo + termo.Length);
+            int indiceEcomercial = resultado.IndexOf('&');
+
+            if(indiceEcomercial >= 0)
+                return resultado.Remove(indiceEcomercial);
+
+            return resultado;
         }
 
     }
